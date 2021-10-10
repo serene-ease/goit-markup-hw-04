@@ -137,7 +137,7 @@ nav a {
     url(../images/img/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
 }
 .hero button {
@@ -319,6 +319,7 @@ nav a {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
+.clients a:focus,
 .clients a:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
